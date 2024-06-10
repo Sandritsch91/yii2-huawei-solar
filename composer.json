@@ -1,0 +1,48 @@
+{
+    "name": "sandritsch91/yii2-huawei-solar",
+    "description": "A Huawei solar module for Yii 2",
+    "keywords": [
+        "yii2",
+        "huawei",
+        "solar",
+        "module"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/Sandritsch91/yii2-huawei-solar/issues",
+        "source": "https://github.com/Sandritsch91/yii2-huawei-solar"
+    },
+    "authors": [
+        {
+            "name": "Sandritsch91",
+            "email": "sandritsch91@gmail.com"
+        }
+    ],
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "yiisoft/yii2": "^2.0.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "sandritsch91\\yii2\\huawei\\solar\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    }
+}
